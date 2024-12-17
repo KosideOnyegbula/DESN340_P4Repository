@@ -2,61 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="Index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bike Edmonton | Home</title>
 </head>
 <body>
-    <header>
+
 <!-- Navigation --> 
-    <!-- LOGO -->
-      <div class="logo">
-        <img src="Images/Logo.png" alt="Logo">
-      </div>
-    <!-- MENU -->
-      <nav>
-        <a href="#Home">Home</a>
-        <a href="#About Us" >About Us</a>
-        <a href="#Shop">Shop</a>
-        <a href="#Programs & Services">Programs & Services</a>
-        <a href="#Cycling Resources">Cycling Resources</a>
-        <a href="#Community">Programs & Services</a>
-      </nav>
-    <!-- SEARCH -->
-      <div class="search"></div>
-        <button class="search-button">Search</button>
-        <input type="text" class="search-text" placeholder="Type to search...">
-      </div>
+<div class="home" id="homeContainer">
+      <header class="navigation flex-row">
+        <img class="logo" alt="BikeEdmontonLogo" src="Images/Logo.png">
+
+                <nav class="topmenu">
+                    <a href="index.html" class="menuactive">Home</a>
+                    <a href="About.html" class="menuoptions">About Us</a>
+                    <a href="Shop.html" class="menuoptions">Shop</a>
+                    <a href="#Programs & Services" class="menuoptions">Programs & Services</a>
+                    <a href="#Cycling Resources"class="menuoptions">Cycling Resources</a>
+                    <a href="#Community" class="menuoptions">Community</a>
+                </nav>
+
+                <div class="search-container">
+                  <button class="search-button">Search</button>
+                  <input class="search-text" type="text" placeholder=""> </div>
+        
     </header>
 
  <!-- Hero -->
     <section>
-      <div class="hero">
-        <!-- HERO TEXT -->
-        <h1 class="hero-text">Cycling is for everyone</h1>
-        <!-- SHOP -->
-        <button class="shop-button">Shop</button>
-        <!-- IMAGES -->
-        <div class="circle-image Cyclist" alt="Cyclist"></div>
-        <div class="circle-image BikeWheel" alt="Bike Wheel"></div>
+      <div class="hero flex row">
+        <div class="margindefault">
+          <!-- HERO TEXT -->
+          <h1 class="hero-text">CYCLING IS FOR EVERYONE</h1>
+          <!-- SHOP -->
+          <a href="Shop.html"> <button class="shop-button">Shop</button> </a>
+          <!-- IMAGES -->
+          <div>
+            <div class="circle-image1 Cyclist" alt="Cyclist"></div>
+            <div class="circle-image2 BikeWheel" alt="Bike Wheel"></div>
+          </div>
+        </div>
       </div>
     </section>
 
- <!-- Services -->
-    <section>
-        <h2 class="Subheader"> Services </h2>
-        <svg xmlns="http://www.w3.org/2000/svg" width="86" height="10" viewBox="0 0 86 10" fill="none">
-            <path d="M5 5H80.5" stroke="#1A9FAB" stroke-width="10" stroke-linecap="round"/>
-        </svg>
+<!-- Services -->
+    <section class="services margindefault">
+      <div class="services-header">
+        <h2 class="Subheader"> Services <svg style="padding-left: 1180px; z-index: 9999; position: relative; bottom: 62px;" xmlns="http://www.w3.org/2000/svg" width="86" height="10" viewBox="0 0 86 10" fill="none">
+          <path d="M5 5H80.5" stroke="#1A9FAB" stroke-width="10" stroke-linecap="round"/>
+      </svg> </h2>
+        
+      </div>
+
+        <div class="services-container">
+            <!-- Workshops -->
+            <a href="Workshop.html" class="workshoplink" style="text-decoration: none;">
+              <div class="service-card1">
+                  <img src="Images/Workshops.jpg" alt="Toolkits for Workshops">
+                  <div class="service-content">
+                      <h3>Workshops</h3>
+                      <p>We have the tools (including specialty tools) needed to repair and maintain your bicycle, and mechanics to teach you how to do it. Don't know anything about bicycle repairs? No problem! Volunteer mechanics are on duty to assist you, from finding a bike that's right for you to building an entire bike from just parts.</p>
+                  </div>
+              </div> </a>
+
+            <!-- Rentals -->
+            <div class="flex-column">
+              <div class="service-card">
+                  <img src="Images/Rentals.jpg" alt="A rental space">
+                  <div class="service-content">
+                      <h3>Rentals</h3>
+                      <p>Rent our downtown space, bike generator, our mechanics, and racks.</p>
+                  </div>
+              </div>
+
+              <!-- Courses -->
+              <div class="service-card">
+                  <img src="Images/Courses.jpg" alt="Course Practice">
+                  <div class="service-content">
+                      <h3>Courses</h3>
+                      <p>Our courses are designed for adult learning. Some young people struggle with the pace, and instructors may not have time to offer extra support.</p>
+                  </div>
+              </div>
+            </div>
+        </div>
     </section>
-    <section></section>
-    <section></section>
 
 
+<!-- Blog -->
+    <section class="margindefault">
+        <h2 class="Subheader"> Blog </h2>
+        <div class= "flex-row">
+          <Img src= "Images/Cap.jpg" alt="Bike Edmonton Cap" style="border-radius: 20px;"> </Img>
+          <!-- Bubble Text -->
 
+          <div class="blogrectangle">
+            <p class= "blogbold">Bike Edmonton Cycling Caps! </p>
+            <p class="blogbody">Don't miss your chance to show your support for Bike 
+              Edmonton and amplify your cycling style with a limited
+              edition Bike Edmonton cycling cap. Available now until November 15th for order  </p>
+            <div class="read-more">
+                <button class="read-morebutton ">Read more <img class="read-morearrow" alt="arrow" src="Images/Readmorearrow.svg"> </button>
+            </div>
+          </div>
+        </div>
+    </section>
 
+<!-- Sign up -->
+    <section class="flex-row">
+      <div class="Signcontainer group-child">
+          <div class="signup">Sign up for our Newsletter</div>
+          <div  class="name">Name</div>
+          <div class=" flex 1 nameform">
+          </div>
+          <div class="email">Email</div>
+          <div class=" flex 1 emailform">
+          </div>
+          <div class="submitbutton" >Submit</div>
+      </div>
+    </section>
 
+<!-- Footer -->
+    <footer class="flex-row">
+			<img class="logo2" alt="BikeEdmontonLogo" src="Images/Logo.png">
 
-
+      		<b class="home-about-us-container">
+        				<p class="generalbody">Home</p>
+        				<p class="generalbody">About Us</p>
+        				<p class="generalbody">Shop</p>
+      		</b>
+      		<b class="programs-services-container">
+        				<p class="generalbody">Programs & Services</p>
+        				<p class="generalbody">Cycling resources</p>
+        				<p class="generalbody">Community</p>
+      		</b>
+      		<b class="blog-refund-policy-container">
+        				<p class="generalbody">Blog</p>
+        				<p class="generalbody">Refund Policy</p>
+        				<p class="generalbody">Contact Us</p>
+      		</b>
+      		<img class="icon" alt="" src="Images/Social Icons.svg">	
+		</footer>
+</div>
 </body>
 </html>
