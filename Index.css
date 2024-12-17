@@ -1,0 +1,567 @@
+/* Fontstyles */
+
+.Subheader {
+    font-family: "Nico Moji";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; 
+    letter-spacing: -0.96px;
+}
+
+/*LAYOUT*/
+.flex-row { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-column { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex-row-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.margindefault {
+    margin: 0 110px;
+} 
+
+
+/*GENERAL*/
+.home {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Montserrat;
+}
+
+.generalbody {
+    margin-block-start: 0;
+    margin-block-end: 18px;
+}
+
+
+/*NAVIGATION*/
+.menuactive {
+    letter-spacing: -0.225px;
+    font-weight: 800;
+    color: #22b2bf;
+    text-align: center;
+    text-decoration: none;
+}
+.menuoptions{
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.225px;
+    text-align: center;
+    text-decoration: none;
+    color: #000
+}
+.menuoptions:hover {
+    color: #22b2bf}
+    
+.topmenu {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    margin-top: 22px;
+    padding-left: 100px;
+    display: flex;
+    flex: 1; 
+}
+
+.logo {
+    margin-left: 110px;
+    margin-top: 22px;
+    align-items: center; /* Vertically center the logo */
+}
+
+.navigation {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+    justify-content: space-between; /* Space between elements */
+    align-items: center;
+}
+
+.search-container {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    gap: 0; 
+    margin-right: 110px;
+}
+
+.search-button {
+    background-color: #22b2bf;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    padding: 11px 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-text {
+    border: 1px solid #22b2bf;
+    border-left: none; 
+    color: dimgrey;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    flex: 1; /* Makes input expand as needed */
+}
+
+.search-text:focus {
+    outline: none;
+    border-color: #1a98a5;
+}
+
+/*HERO*/
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 125vh;
+    background: linear-gradient(to bottom, #1A9FAB, #ffffff);
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    background-size: cover;
+    
+}
+
+.hero-text {
+    font-family: "Nico Moji";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px;
+    letter-spacing: -1.44px;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    width: 1130px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+    flex-shrink: 0;
+    z-index: 9999;
+    padding-right: 160px;
+}
+
+.shop-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 85px;
+    margin-top: 37px;
+    width: 201px;
+    height: 57px;;
+    color: #1A9FAB;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 187.5% */
+    letter-spacing: -0.36px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.shop-button:hover {
+    background-color: #f0f0f0aa;
+}
+
+.circle-image1 {
+    width: 695px;
+    height: 693px;
+    overflow: hidden;
+    flex: 2;
+    margin-left: 459px;
+    margin-top: 230px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    justify-content: left;
+}
+
+.circle-image2 {
+    width: 544px;
+    height: 531px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    width: 544px; height: 531px;
+    top: 532px; left: 450px;
+    object-fit: cover;
+    justify-content: right;
+    flex: 1;
+    margin-left: 400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cyclist {
+    background-image: url(/Users/kosideonyegbula/Downloads/DESN340/DESN340_P4Repository/DESN340_P4Repository/Images/Mainbiker.jpg);
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.BikeWheel {
+    background-image: url(Images/Bike.jpg);
+}
+
+
+/*SERVICES*/
+.services {
+    text-align: left;
+}
+
+.services-header {
+    margin-bottom: 30px;
+    font-family: "Nico Moji";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px; 
+    letter-spacing: -0.96px;
+    align-items: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 126px; /* Spacing between cards */
+}
+
+.service-card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: left;
+    overflow: hidden;
+    max-width: 748px;
+    height: 669px;
+    text-align: left;
+    background-color: #1A9FAB;
+}
+
+.service-card1:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 400px;
+    height: 308px;
+    text-align: left;
+    background-color: #1A9FAB;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);}
+
+.service-card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.service-content {
+    padding: 0px 30px;
+    align-items: center;
+}
+
+.service-content h3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    align-items: center;
+}
+
+.service-content p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.24px;
+    background-color: #1A9FAB;
+    align-items: center;
+}
+
+/* BLOG */
+.blogrectangle {
+    border-radius: 20px;
+    background: #1A9FAB;
+    width: 613px;
+    height: 259px;
+    margin-left: -109px;
+    margin-top: 50px;
+}
+
+.blogbold {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 150% */
+    letter-spacing: -0.36px;
+    padding: 0px 38px;
+}
+
+.blogbody {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.27px;
+    padding: 0px 38px;
+}
+
+.read-morebutton {
+    position: relative;
+    font-size: 18px;
+    text-decoration: underline;
+    line-height: 30px;
+    font-family: Montserrat;
+    text-align: left;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.27px;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    border: none;
+    background-color: transparent;
+    padding: 0px 38px;
+    }
+
+.read-morearrow {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 22.1px;
+    padding-left: 35px ;
+}
+
+.read-more {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    font-family: Montserrat;
+    }
+
+/* SIGN UP */
+
+.Signcontainer {
+    width: 100%;
+    position: relative;
+    height: 381px;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Montserrat;
+    margin-top: 107px;
+}
+
+.group-child {
+    background-color: #bde8ec;
+    width: 100%;
+    height: 381px;
+}
+.signup{
+    display: flex;
+    padding-top: 41px;
+    padding-left: 107px;
+    font-family: 'Nico Moji';
+    font-size: 48px;
+    letter-spacing: -0.01em;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+}
+.nameform {
+    position: absolute;
+    top: 180px;
+    left: 109px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 500px;
+    height: 61px;
+    flex-shrink: 0; 
+}
+
+.emailform {
+    position: absolute;
+    top: 178px;
+    left: 874px;
+    background-color: #fff;
+    width: 500px;
+    height: 61px;
+    flex-shrink: 0; 
+    border-radius: 20px;;
+}
+
+.submitbutton {
+    position: relative;
+    background-color: #1a9fab;
+    border-radius: 30px;
+    padding: 6px 52px;
+    margin-top: 160px;
+    margin-left: 110px;
+    letter-spacing: -0.01em;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94px;
+    height: 45px;
+}
+
+.name {
+    position: absolute;
+    top: 135px;
+    left: 106px;
+    letter-spacing: -0.01em;
+    line-height: 36px;
+    display: inline-block;
+    width: 186.3px;
+    height: 44.6px;
+}
+.email {
+    position: absolute;
+    top: 133px;
+    left: 874px;
+    letter-spacing: -0.01em;
+    line-height: 36px;
+    display: inline-block;
+    width: 186.3px;
+    height: 44.6px;
+}
+
+
+/*FOOTER*/
+footer{
+    position: absolute;
+    background-color: #1a9fab;
+    width: 100%;
+    height: 291px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.logo2{
+    padding-top: 61px;
+    padding-left: 110px;
+    width: 51px;
+    height: 48px;
+}
+
+.home-about-us-container {
+    position: absolute;
+    padding-top: 61px;
+    padding-left: 565px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.programs-services-container {
+    position: absolute;
+    padding-top: 61px;
+    padding-left: 734px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-refund-policy-container {
+    position: absolute;
+    top: 61px;
+    left: 952px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    position: absolute;
+    height: 14.47%;
+    width: 11.41%;
+    padding-top: 61px;
+    padding-left: 1220px;
+    max-width: 100%;
+    max-height: 100%;
+}
