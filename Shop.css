@@ -1,0 +1,147 @@
+ /*LAYOUT*/
+.flex-row { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex-row-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.margindefault {
+    margin: 0 110px;
+} 
+
+
+/*GENERAL*/
+.shop {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Montserrat;
+    line-height: normal;
+}
+
+.generalbody {
+    margin-block-start: 0;
+    margin-block-end: 18px;
+}
+
+
+/*NAVIGATION*/
+.menuactive {
+    letter-spacing: -0.225px;
+    font-weight: 800;
+    color: #22b2bf;
+    text-align: center;
+    text-decoration: none;
+}
+.menuoptions{
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.225px;
+    text-align: center;
+    text-decoration: none;
+    color: #000
+}
+.menuoptions:hover {
+    color: #22b2bf}
+    
+.topmenu {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    margin-top: 22px;
+    padding-left: 100px;
+    display: flex;
+    flex: 1; 
+}
+
+.logo {
+    margin-left: 110px;
+    margin-top: 22px;
+    align-items: center; /* Vertically center the logo */
+}
+
+.navigation {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+    justify-content: space-between; /* Space between elements */
+    align-items: center;
+}
+
+.search-container {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    gap: 0; 
+    margin-right: 110px;
+}
+
+.search-button {
+    background-color: #22b2bf;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    padding: 11px 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-text {
+    border: 1px solid #22b2bf;
+    border-left: none; 
+    color: dimgrey;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    flex: 1; /* Makes input expand as needed */
+}
+
+.search-text:focus {
+    outline: none;
+    border-color: #1a98a5;
+}
+
+/*BIKESHOP*/
+.label .text-wrapper {
+    display: flex;
+    font-family: "Nico Moji";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px;
+    letter-spacing: -1.44px;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+}
+
