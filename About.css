@@ -1,0 +1,334 @@
+/*LAYOUT*/
+.flex-row { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex-row-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.margindefault {
+    margin: 0 110px;
+} 
+
+
+/*GENERAL*/
+.about {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Montserrat;
+}
+
+.generalbody {
+    margin-block-start: 0;
+    margin-block-end: 18px;
+}
+
+
+/*NAVIGATION*/
+.menuactive {
+    letter-spacing: -0.225px;
+    font-weight: 800;
+    color: #22b2bf;
+    text-align: center;
+    text-decoration: none;
+}
+.menuoptions{
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.225px;
+    text-align: center;
+    text-decoration: none;
+    color: #000
+}
+.menuoptions:hover {
+    color: #22b2bf}
+    
+.topmenu {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    margin-top: 22px;
+    padding-left: 100px;
+    display: flex;
+    flex: 1; 
+}
+
+.logo {
+    margin-left: 110px;
+    margin-top: 22px;
+    align-items: center; /* Vertically center the logo */
+}
+
+.navigation {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+    justify-content: space-between; /* Space between elements */
+    align-items: center;
+}
+
+.search-container {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    gap: 0; 
+    margin-right: 110px;
+}
+
+.search-button {
+    background-color: #22b2bf;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    padding: 11px 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-text {
+    border: 1px solid #22b2bf;
+    border-left: none; 
+    color: dimgrey;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    flex: 1; /* Makes input expand as needed */
+}
+
+.search-text:focus {
+    outline: none;
+    border-color: #1a98a5;
+}
+
+
+/*MISSION*/ 
+.Waterdalebridge {
+    padding-top: 125px;
+    padding-left: 49px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 633.4px;
+    height: 613px;
+    justify-content: left;
+}
+
+.ourmission {
+    padding-bottom: 55px ;
+    padding-top: 247px;
+    padding-left: 80px;
+    padding-right: 49px;
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 72px;
+    font-family: 'Nico Moji';
+    color: #000;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.missionbody{
+    padding-left: 90px;
+    display: flex;
+    letter-spacing: -0.01em;
+    line-height: 38px;
+    width: 490px;
+}
+
+
+/*VISION*/ 
+.ourvision {
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    line-height: 72px;
+    font-family: 'Nico Moji';
+    color: #000;
+    text-align: left;
+    display: flex;
+    padding-right: 76px;
+    padding-top: 279px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+.visionbody {
+    text-align: left;
+    letter-spacing: -0.01em;
+    line-height: 38px;
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    margin-left: 58px;
+    margin-top: -55px ;
+    padding-top: 99px ;
+    color: #000;
+}
+
+.Bikingdowntown{
+    width: 633.4px;
+    height: 613px;
+    align-items: center;
+    padding-top: 89px;
+    padding-right: 49px;
+
+}
+
+
+/*GOALS*/ 
+.ourgoals {
+    font-size: 64px;
+    position: absolute;
+    letter-spacing: -0.01em;
+    line-height: 2px;
+    font-family: 'Nico Moji';
+    color: #000;
+    text-align: left;
+    display: flex;
+    align-items: start;
+    padding-left: 54px;
+}
+.vector-parent {
+    position: absolute;
+    padding-top: 89.58px;
+    padding-left: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 36px;
+}
+
+.vector-icon {
+    width: 65px;
+    height: 65px;
+    position: relative;
+}
+
+.goal-list {
+    align-items: center;
+    padding-top: 70px;
+    margin-left: 149px;
+}
+.maintain-a-facility {
+    letter-spacing: -0.01em;
+    line-height: 38px;
+    display: inline-block;
+    width: 917px;
+}
+.educate-public-with {
+    letter-spacing: -0.01em;
+    line-height: 63px;
+    display: inline-block;
+    width: 917px;
+}
+.offer-services-to {
+    letter-spacing: -0.01em;
+    line-height: 63px;
+    display: inline-block;
+    width: 917px;
+}
+.advocate-for-better {
+    letter-spacing: -0.01em;
+    line-height: 63px;
+    display: inline-block;
+    width: 915px;
+}
+.promote-and-support {
+    letter-spacing: -0.01em;
+    line-height: 63px;
+    display: inline-block;
+    width: 1033px;
+}
+
+
+/*FOOTER*/
+footer{
+    position: absolute;
+    top: 2213px;
+    left: 0px;
+    background-color: #1a9fab;
+    width: 100%;
+    height: 291px;
+    overflow: hidden;
+    font-size: 15px;
+    color: #fff;
+}
+
+.logo2{
+    padding-top: 61px;
+    padding-left: 110px;
+    width: 51px;
+    height: 48px;
+}
+
+.home-about-us-container {
+    position: absolute;
+    padding-top: 61px;
+    padding-left: 565px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.programs-services-container {
+    position: absolute;
+    padding-top: 61px;
+    padding-left: 734px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-refund-policy-container {
+    position: absolute;
+    top: 61px;
+    left: 952px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    position: absolute;
+    height: 14.47%;
+    width: 11.41%;
+    padding-top: 61px;
+    padding-left: 1220px;
+    max-width: 100%;
+    max-height: 100%;
+}
